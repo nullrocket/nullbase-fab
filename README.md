@@ -1,5 +1,9 @@
-# Nullbase-button
+# nullbase-fab
 
+
+Read the workaround here
+
+https://www.npmjs.com/package/ember-browserify  
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
