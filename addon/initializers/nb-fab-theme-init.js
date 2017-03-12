@@ -159,7 +159,7 @@ var ThemeHandler = Ember.Object.extend(ThemeHandlerMixin,{
 
 
 export function initialize( application ) {
-  console.log('Initializing nb-fab-theme-init');
+
   application.register('nb-fab-theme-init:main', ThemeHandler, { instantiate: true });
   application.inject('component:nb-fab', '_themeHandler', 'nb-fab-theme-init:main');
 }
