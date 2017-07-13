@@ -1,21 +1,43 @@
 <div>
 
-  {{#nb-fab  type="mini" id="miniFAB" icon=(build-icon "plus" "white")   }}
-      {{nb-button type="raised-icon" icon=(build-icon "account-plus" "grey") background-color="#ddd"}}
-      {{nb-button type="raised-icon" icon=(build-icon "account-multiple-plus" "grey") activate=activate background-color="#ddd"}}
-      {{nb-button type="raised-icon" icon=(build-icon "label" "grey") background-color="#ddd"}}
-      {{/nb-fab}}
+    {{#nb-fab  type="mini" id="miniFAB" icon=(build-icon "plus" "white")   }}
+        {{nb-button type="raised-icon" icon=(build-icon "account-plus" "grey") background-color="#ddd"}}
+        {{nb-button type="raised-icon" icon=(build-icon "account-multiple-plus" "grey") activate=activate background-color="#ddd"}}
+        {{nb-button type="raised-icon" icon=(build-icon "label" "grey") background-color="#ddd"}}
+    {{/nb-fab}}
 
     {{#nb-fab type="normal" id="normalFAB"  icon=(build-icon "plus" "white")   }}
         {{nb-button type="raised-icon" icon=(build-icon "account-plus" "grey") background-color="#ddd"}}
         {{nb-button type="raised-icon" icon=(build-icon "account-multiple-plus" "grey") activate=activate background-color="#ddd"}}
         {{nb-button type="raised-icon" icon=(build-icon "label" "grey") background-color="#ddd"}}
-        {{/nb-fab}}
-    {{#nb-fab type="large" id="largeFAB" active=appState.fabIsActive on-activate=(route-action "onActivateFab") activeIcon=(build-icon "key-plus" "white") icon=(build-icon "plus" "white")   }}
-        {{nb-button type="raised-icon" icon=(build-icon "account-plus" "grey") background-color="#ddd"}}
-        {{nb-button type="raised-icon" icon=(build-icon "account-multiple-plus" "grey") activate=activate background-color="#ddd"}}
-        {{nb-button type="raised-icon" icon=(build-icon "label" "grey") background-color="#ddd"}}
-        {{/nb-fab}}
+    {{/nb-fab}}
+    {{#nb-fab type="normal" id="largeFAB" active=appState.fabIsActive on-activate=(route-action "onActivateFab") activeIcon=(build-icon "key-plus" "white") icon=(build-icon "plus" "white")   }}
+        <div class="nb-fab-item">
+            <div class="nb-fab-label">
+                bob
+            </div>
+            <div class="nb-fab-button">
+                {{nb-button type="raised-icon" icon=(build-icon "account-plus" "grey") background-color="#ddd"}}
+            </div>
+
+        </div>
+        <div class="nb-fab-item">
+            <div class="nb-fab-label">
+                bob
+            </div>
+            <div class="nb-fab-button">
+                {{nb-button type="raised-icon" icon=(build-icon "account-multiple-plus" "grey") activate=activate background-color="#ddd"}}
+            </div>
+        </div>
+        <div class="nb-fab-item">
+            <div class="nb-fab-label">
+                bob
+            </div>
+            <div class="nb-fab-button">
+                {{nb-button type="raised-icon" icon=(build-icon "label" "grey") background-color="#ddd"}}
+            </div>
+        </div>
+    {{/nb-fab}}
 
 </div>
 

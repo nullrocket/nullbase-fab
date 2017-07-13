@@ -1,6 +1,6 @@
 {
   "name": "nullbase-fab",
-  "version": "0.0.3-alpha",
+  "version": "0.0.4-alpha",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -39,8 +39,8 @@
     "loader.js": "^4.0.1",
     "ember-route-action-helper": "2.0.0",
     "nullbase-basic-layout": "https://github.com/nullrocket/nullbase-basic-layout.git#0.0.0-alpha",
-    "nullbase-button": "https://github.com/nullrocket/nullbase-button.git#0.0.0-alpha",
-    "nullbase-fab": "https://github.com/nullrocket/nullbase-fab.git#0.0.0-alpha"
+    "nullbase-button": "https://github.com/nullrocket/nullbase-button.git#0.0.0-alpha"
+
   },
   "keywords": [
     "ember-addon"
